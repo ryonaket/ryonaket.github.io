@@ -1,0 +1,30 @@
+th{
+  white-space: nowrap;
+}
+
+.nowrap{
+  white-space: nowrap;
+}
+
+table.backup_table{
+  width: 600px;
+}
+
+.backup_table td{
+  border: 2px dashed #888888;
+}
+
+.backup_table td.link{
+  text-align: center;
+  width: 280px;
+}
+
+table.flyer_table{
+  width: 350px;
+}
+
+.flyer_table td{
+  border: 2px dashed #888888;
+  text-align: center;
+}
+

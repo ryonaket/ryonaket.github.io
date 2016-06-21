@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <title>りょなけっと</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <META http-equiv="Content-Style-Type" content="text/css">
+    <META http-equiv="Content-Script-Type" content="text/javascript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ,minimum-scale=1">
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="../bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <link href="../css/map.css" rel="stylesheet" media="screen">
+    <script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+  </head>
+  <body style="margin:10px;">
+    <h3>スペース配置図(試験運用中)</h3>
+    <p>
+      図にポインタを載せると右側にサークル情報が表示されます。<br>
+      サークルカットの読み込みが遅い場合があります。
+    </p>
+    <div class="map_frame" style="float:left;">
+<div class='block' style='top:40px;left:30px;' id='sp1'>1</div>
+<div class='block' style='top:80px;left:30px;' id='sp2'>2</div>
+<div class='block' style='top:120px;left:30px;' id='sp3'>3</div>
+<div class='block' style='top:160px;left:30px;' id='sp4'>4</div>
+<div class='block' style='top:200px;left:30px;' id='sp5'>5</div>
+<div class='block' style='top:240px;left:30px;' id='sp6'>6</div>
+<div class='block' style='top:280px;left:30px;' id='sp7'>7</div>
+<div class='block' style='top:320px;left:30px;' id='sp8'>8</div>
+<div class='block' style='top:80px;left:120px;' id='sp9'>9</div>
+<div class='block' style='top:120px;left:120px;' id='sp10'>10</div>
+<div class='block' style='top:160px;left:120px;' id='sp11'>11</div>
+<div class='block' style='top:200px;left:120px;' id='sp12'>12</div>
+<div class='block' style='top:320px;left:120px;' id='sp13'>13</div>
+<div class='block' style='top:360px;left:120px;' id='sp14'>14</div>
+<div class='otherobj' style='top:260px;left:160px;width:40px;height:40px;'>柱</div>
+<div class='block' style='top:80px;left:210px;' id='sp15'>15</div>
+<div class='block' style='top:120px;left:210px;' id='sp16'>16</div>
+<div class='block' style='top:160px;left:210px;' id='sp17'>17</div>
+<div class='block' style='top:200px;left:210px;' id='sp18'>18</div>
+<div class='block' style='top:320px;left:210px;' id='sp19'>19</div>
+<div class='block' style='top:360px;left:210px;' id='sp20'>20</div>
+<div class='block' style='top:40px;left:300px;' id='sp21'>21</div>
+<div class='block' style='top:80px;left:300px;' id='sp22'>22</div>
+<div class='block' style='top:120px;left:300px;' id='sp23'>23</div>
+<div class='block' style='top:160px;left:300px;' id='sp24'>24</div>
+<div class='block' style='top:200px;left:300px;' id='sp25'>25</div>
+<div class='block' style='top:240px;left:300px;' id='sp26'>26</div>
+<div class='block' style='top:280px;left:300px;' id='sp27'>27</div>
+<div class='block' style='top:320px;left:300px;' id='sp28'>28</div>
+<div class='block' style='top:360px;left:300px;' id='sp29'>29</div>
+<div class='block' style='top:400px;left:300px;' id='sp30'>30</div>
+    </div>
+    <div class="detail">
+      <img id="cut" src="./cut/cut_noimage.jpg" width="224px"/>
+      <table>
+        <tr><th>スペースNo.</th><td id="spno"><span></span></td></tr>
+        <tr><th>サークル名</th><td><span id="circle"></span></td></tr>
+        <tr><th>執筆者</th><td><span id="author"></span></td></tr>
+        <tr><th>ウェブサイト</th><td><span id="website"><a id="url" href="" target="_blank"></a></span><span id="no-website" style="visibility: hidden">-</span></td></tr>
+      </table>
+    </div>
+    <script src="../js/map.js"></script>
+<div style="clear:both;">
+</div>
+<br>
+<br>
+<br>
+<!-- NINJA ANALYZE -->
+<script type="text/javascript">
+//<![CDATA[
+(function(d) {
+  var sc=d.createElement("script"),
+      ins=d.getElementsByTagName("script")[0];
+  sc.type="text/javascript";
+  sc.src=("https:"==d.location.protocol?"https://":"http://") + "code.analysis.shinobi.jp" + "/ninja_ar/NewScript?id=00243005&hash=7c78280a&zone=36";
+  sc.async=true;
+  ins.parentNode.insertBefore(sc, ins);
+})(document);
+//]]>
+</script>
+<!-- /NINJA ANALYZE -->
+  </body>
+</html>

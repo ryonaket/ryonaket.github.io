@@ -1,0 +1,35 @@
+.map_frame{
+  position:relative;
+  width:360px;
+  height:480px;
+  border:3px solid black;
+  left:15px;
+}
+
+th{
+  text-align: left;
+}
+
+.detail{
+  float:left;
+  position:relative;
+  width:440px;
+  height:450px;
+  left:25px;
+}
+
+.block{
+  position:absolute;
+  width:30px;
+  height:40px;
+  border:1px solid black;
+  text-align:center;
+}
+
+.otherobj{
+  position:absolute;
+  border:1px solid black;
+  text-align:center;
+  background-color: gray;
+}
+
